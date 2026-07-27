@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/yazidyettou/**)",
+      "Read(//Users/yazidyettou/Desktop/**)",
+      "Read(//Users/yazidyettou/Documents/**)",
+      "Read(//Users/yazidyettou/Downloads/**)",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/yazidyettou/Downloads/CV & Portfolio/Portfolio en ligne/\\(Anglais\\) \\(3\\).png\")",
+      "Bash(sips --help)",
+      "Bash(sips -c 980 645 --cropOffset 50 1215 \"/Users/yazidyettou/Downloads/CV & Portfolio/Portfolio en ligne/\\(Anglais\\) \\(3\\).png\" --out boumla_test.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight boumla_test.png)",
+      "Bash(sips -s format jpeg -s formatOptions 90 boumla_test.png --out boumla-poster.jpg)",
+      "WebSearch",
+      "Bash(grep -E \"^[0-9]+_|_n\\\\.\\(jpg|jpeg|png\\)$|instagram|insta\" -i)",
+      "Bash(curl -sL \"https://filmfreeway-production-storage-01-connector.filmfreeway.com/assets/public/001/431/579/e8e9fde06c23cf0cc0a20361f39b024b5c7338a3/original/IMG0994.jpg?1743951491\" -o /private/tmp/claude-501/-Users-yazidyettou-site/b9b2dceb-b459-4575-bf5c-1e3a5b624bb4/scratchpad/ff_portrait.jpg)",
+      "Bash(curl -sL \"https://filmfreeway-production-storage-01-connector.filmfreeway.com/assets/public/001/431/580/a1b53dea2a12357a39aef4d503b1619af7818089/original/8673FC417CFA40E88198CD07DDA9BFD5.jpg?1743951495\" -o ff_2.jpg)",
+      "Bash(curl -sL \"https://filmfreeway-production-storage-01-connector.filmfreeway.com/assets/public/001/431/581/2dd29c80aa20f8b375a5ddd6b9ccc48a7a17494d/original/20240501144849.jpg?1743951497\" -o ff_3.jpg)",
+      "Bash(curl -sL \"https://filmfreeway-production-storage-01-connector.filmfreeway.com/assets/public/001/431/582/84ca7a7602cb9377038e64c76301d97f85e20444/original/IMG20240506163816.jpg?1743951498\" -o ff_4.jpg)",
+      "Bash(cp /private/tmp/claude-501/-Users-yazidyettou-site/b9b2dceb-b459-4575-bf5c-1e3a5b624bb4/scratchpad/ff_4.jpg /Users/yazidyettou/site/assets/portrait.jpg *)",
+      "Bash(md5 /Users/yazidyettou/site/assets/portrait.jpg)",
+      "Bash(gh auth *)",
+      "Bash(npx --yes netlify-cli --version)",
+      "Bash(git -C /Users/yazidyettou/site status)",
+      "Bash(open -R /Users/yazidyettou/site)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.email=\"yazid.yettou@gmail.com\" -c user.name=\"Yazid Yettou\" commit -m \"Portfolio Yazid Yettou - site initial\")"
+    ]
+  }
+}
