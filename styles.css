@@ -174,6 +174,39 @@ img { max-width: 100%; }
   letter-spacing: 0.03em;
 }
 
+/* Photo location credit, bottom-right of hero */
+.hero-geo {
+  position: absolute;
+  right: 6vw;
+  bottom: 2.2rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  max-width: none;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(236, 233, 226, 0.65);
+}
+
+.hero-geo svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+  fill: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .hero-geo {
+    right: auto;
+    left: 6vw;
+    bottom: 1.4rem;
+    font-size: 0.68rem;
+  }
+}
+
 /* PAGE HEADER (non-home pages) */
 .page-header {
   background: var(--dark);
